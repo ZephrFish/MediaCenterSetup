@@ -100,7 +100,7 @@ fi
 # Create an accoutn on plex.tv and navigate to downloads
 echo -e  "[+] ${g}Installing Plex...  ${enda}"
 cd /tmp
-wget https://downloads.plex.tv/plex-media-server/1.11.0.4666-fc63598ba/plexmediaserver_1.11.0.4666-fc63598ba_amd64.deb -O plex.deb
+wget https://downloads.plex.tv/plex-media-server/1.13.0.5023-31d3c0c65/plexmediaserver_1.13.0.5023-31d3c0c65_amd64.deb -O plex.deb
 dpkg -i plex.deb
 
 # Install Transmission
